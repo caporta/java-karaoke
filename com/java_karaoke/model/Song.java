@@ -1,9 +1,9 @@
 package com.java_karaoke.model;
 
 public class Song {
-  private String mArtist;
-  private String mTitle;
-  private String mVideoURL;
+  protected String mArtist;
+  protected String mTitle;
+  protected String mVideoURL;
 
   public Song(String artist, String title, String videoURL) {
     mArtist = artist;
